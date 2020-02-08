@@ -19,6 +19,10 @@ config/name="Platformer"
 run/main_scene="res://src/Main.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+globals="*res://src/Logic/globals.gd"
+
 [display]
 
 window/size/width=1280
